@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archives militaires — Accès restreint</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #101d2b;
+      color: #e8edf2;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 28px 8%;
+      border-bottom: 1px solid #526171;
+      background: #172638;
+    }
+    .republique {
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .ministere {
+      color: #bbc7d2;
+      font-size: 12px;
+      margin-top: 8px;
+      letter-spacing: 1px;
+    }
+    main {
+      max-width: 850px;
+      margin: 65px auto;
+      padding: 0 24px;
+    }
+    .classification {
+      display: inline-block;
+      color: #e2b96f;
+      border: 1px solid #a77d39;
+      padding: 9px 15px;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+    h1 {
+      margin-top: 30px;
+      font-size: 34px;
+      letter-spacing: 2px;
+    }
+    .subtitle { color: #bbc7d2; }
+    .dossier {
+      margin-top: 40px;
+      padding: 30px;
+      border: 1px solid #526171;
+      background: #172638;
+    }
+    .status {
+      color: #e2b96f;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 22px;
+      padding: 15px 25px;
+      background: #a77d39;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    .button:hover { background: #c3984c; }
+    footer {
+      margin-top: 55px;
+      color: #8fa0b1;
+      font-size: 11px;
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="republique">RÉPUBLIQUE FRANÇAISE</div>
+    <div class="ministere">MINISTÈRE DES ARMÉES</div>
+    <div class="ministere">
+      SERVICE DES ARCHIVES MILITAIRES — PREMIER EMPIRE
+    </div>
+  </header>
+
+  <main>
+    <div class="classification">
+      CONFIDENTIEL — ÉTAT-MAJOR
+    </div>
+
+    <h1>PORTAIL DES ARCHIVES</h1>
+    <p class="subtitle">
+      Système de consultation des fonds historiques militaires
+    </p>
+
+    <section class="dossier">
+      <div class="status">DOSSIER DÉVERROUILLÉ</div>
+      <h2>Accès autorisé</h2>
+      <p>
+        Votre authentification a été validée.
+        Le document historique est disponible à la consultation.
+      </p>
+      <a class="button" href="./document-secret.pdf"
+         target="_blank" rel="noopener">
+        CONSULTER LE DOCUMENT
+      </a>
+    </section>
+
+    <footer>
+      DOSSIER : EM-1812-047<br>
+      CLASSIFICATION : CONFIDENTIEL<br>
+      Interface fictive créée pour un jeu d'énigmes.
+    </footer>
+  </main>
+</body>
+</html>
